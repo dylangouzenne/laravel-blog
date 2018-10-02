@@ -1,0 +1,150 @@
+/*/////////////////////// zone info personelle /////////////////////////*/
+
+.presentation-personelle{
+	width:100%;
+	background-color: #305577;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #ffffff;
+}
+
+#info-contact{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width:70%;
+}
+
+.info-contact-box{
+	width: 28%;
+	height: auto;
+	border-radius: 1em;
+	margin: 1em;
+}
+
+#identite{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.info-contact-box-photo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#reseaux-sociaux{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#photo-profil{
+
+	width: 10em;
+	height: 10em;
+	border-radius: 50%;
+	background-image: url("{{ asset('img/photo-profil.jpg') }}");
+	// background-image: url(img/photo-profil.jpg);
+	background-size: cover;
+	background-position: top;
+}
+
+/*/////////////////////// zone compétences /////////////////////////*/
+
+.competences{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-size: 100%;
+	background-position: center;
+	background-image:url(img/3308.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-origin: border-box;
+}
+
+#titre-competences{
+	background-color: rgba(227, 226, 232, 0.8);
+	padding: 0.75em;
+	border-radius: 1.25em;
+}
+
+.competences-box{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.developpement{
+	background-color: rgba(227, 226, 232, 0.8);
+}
+
+.systeme{
+	background-color: rgba(227, 226, 232, 0.8);
+}
+
+.reseau{
+	background-color: rgba(227, 226, 232, 0.8);
+}
+
+/*/////////////////////// zone experiences-professionelle /////////////////////////*/
+
+.experiences-professionelle{
+	width:100%;
+	background-color: #305577;
+	color: #ffffff;
+	//padding: 2em 2em 2em 2em;
+}
+
+/*/////////////////////// zone formation /////////////////////////*/
+
+.formations{
+	background-size: 100%;
+	background-position: center;
+	background-image:url(img/campus-etudiant.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+}
+
+.formations-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.logo-ecole{
+	width: 10em;
+	height: 10em;
+}
+
+/*/////////////////////// commun /////////////////////////*/
+
+
+body{
+	margin: 0;
+
+}
+
+.titre{
+	text-align: center;
+	margin: 1em; 
+}
+
+.box{
+	width: 20%;
+	height: auto;
+	border-radius: 1em;
+	margin: 2em;
+	padding: 2em;
+	background-color: rgba(227, 226, 232, 0.8);
+
+}
